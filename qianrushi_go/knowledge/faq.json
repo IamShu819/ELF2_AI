@@ -1,0 +1,40 @@
+[
+  {
+    "id": "faq_capabilities",
+    "category": "常见问题",
+    "question": "这个系统能做什么",
+    "answer": "这个系统可以进行语音问答、园区路线咨询、环境数据展示和部分安全规范提示。具体能力以现场配置为准。",
+    "keywords": [
+      "系统能做什么",
+      "功能",
+      "你会什么",
+      "可以干嘛",
+      "能力",
+      "园区助手"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "capability"
+    ]
+  },
+  {
+    "id": "faq_no_data",
+    "category": "常见问题",
+    "question": "没有资料时系统会如何回答",
+    "answer": "当知识库没有相关资料时，系统会说明还需要再了解一下，不会把未确认内容当成事实回答。",
+    "keywords": [
+      "没有资料",
+      "不知道",
+      "无资料",
+      "查不到",
+      "不会回答",
+      "未确认"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "capability"
+    ]
+  }
+]

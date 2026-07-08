@@ -1,0 +1,54 @@
+# Build outputs
+build/
+dist/
+out/
+cmake-build-*/
+**/cmake-build-*/
+
+# Runtime/model artifacts
+runtime/
+qianrushi_go/models/
+qianrushi_go/runtime/
+
+# Generated results
+qianrushi_go/eval/results/
+outputs/
+
+# Binaries and archives
+*.exe
+*.dll
+*.pdb
+*.so
+*.dylib
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bz2
+*.7z
+*.rar
+
+# Logs and temporary files
+*.log
+logs/
+log/
+tmp/
+temp/
+.cache/
+Testing/Temporary/
+
+# IDE/editor local state
+.idea/
+.vscode/
+*.user
+*.swp
+*.swo
+
+# Local handoff/spec files
+.ai/
+.omx/
+specs/
+
+# OS metadata
+.DS_Store
+Thumbs.db

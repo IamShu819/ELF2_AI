@@ -1,0 +1,450 @@
+QMainWindow, QWidget#AppRoot {
+    background: #F4F8FC;
+    font-family: "Microsoft YaHei UI", "Noto Sans CJK SC", "PingFang SC";
+    color: #1D2939;
+}
+
+QFrame#HeaderBar {
+    background: transparent;
+    border: none;
+}
+
+QLabel#MainTitle {
+    color: #0B2A6F;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+QLabel#HeroTitle {
+    color: #0F172A;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 120%;
+}
+
+QLabel#SubTitle {
+    color: #475467;
+    font-size: 16px;
+}
+
+QLabel#SectionTitle {
+    color: #0B2A6F;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+QLabel#CardTitle {
+    color: #0B2A6F;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+QLabel#BodyText, QLabel#TipText {
+    color: #475467;
+    font-size: 14px;
+}
+
+QLabel#BodyTextLarge {
+    color: #1D2939;
+    font-size: 16px;
+    line-height: 145%;
+}
+
+QLabel#MetaText {
+    color: #667085;
+    font-size: 14px;
+}
+
+QFrame#PageCard {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+}
+
+QFrame#AssistantCard {
+    background-color: #F8FBFF;
+    border: none;
+    border-radius: 16px;
+}
+
+QFrame#MiniCard {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 16px;
+}
+
+QLabel#AssistantAvatar {
+    background-color: #EEF6FF;
+    border: 1px solid #D8E8FF;
+    border-radius: 27px;
+    padding: 4px;
+}
+
+QPushButton#PrimaryButton {
+    background-color: #1E73F8;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+QPushButton#PrimaryButton:hover {
+    background-color: #1664DD;
+}
+
+QPushButton#PrimaryButton:pressed {
+    background-color: #0F55C8;
+}
+
+QPushButton#SecondaryButton {
+    background-color: #FFFFFF;
+    color: #1E73F8;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+QPushButton#SecondaryButton:hover {
+    background-color: #EEF6FF;
+}
+
+QPushButton#ChipButton {
+    background-color: #F3F8FF;
+    color: #1D2939;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+QPushButton#NavButton {
+    min-height: 38px;
+    padding: 0 16px;
+    border-radius: 19px;
+    border: 1px solid #D8E8FF;
+    background: #F3F8FF;
+    color: #1D2939;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+QPushButton#NavButton:hover {
+    background: #E4F0FF;
+    border: 1px solid #CFE4FF;
+    color: #1E73F8;
+}
+
+QPushButton#NavButton[active="true"] {
+    background: #1E73F8;
+    border-color: #1E73F8;
+    color: #FFFFFF;
+}
+
+QPushButton#NavButton[active="true"]:hover {
+    background: #1664D9;
+    border-color: #1664D9;
+    color: #FFFFFF;
+}
+
+QPushButton#ChipButton:hover {
+    background-color: #E4F0FF;
+    border: none;
+    color: #1E73F8;
+}
+
+QLabel#VoiceHintLabel {
+    color: #64748B;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+QLabel#UserBubble {
+    background-color: #1E73F8;
+    color: white;
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-size: 16px;
+    font-weight: 600;
+    max-width: 560px;
+}
+
+QLabel#AssistantBubble {
+    background-color: #FFFFFF;
+    color: #1D2939;
+    border: none;
+    border-radius: 16px;
+    padding: 14px 18px;
+    font-size: 16px;
+}
+
+QLabel#InputBar, QLineEdit#SearchBox {
+    background-color: #F8FBFF;
+    color: #475467;
+    border: 1px solid #D8E8FF;
+    border-radius: 12px;
+    padding: 13px 18px;
+    font-size: 15px;
+    line-height: 135%;
+}
+
+QLineEdit#SearchBox:focus {
+    border: 1px solid #1E73F8;
+    background: #FFFFFF;
+}
+
+QFrame#RouteStepItem {
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 12px;
+}
+
+QFrame#RouteStepItem[selected="true"] {
+    background-color: #F3F8FF;
+    border: 1px solid #1E73F8;
+}
+
+QLabel#StepBadge {
+    background-color: #1E73F8;
+    color: #FFFFFF;
+    border-radius: 17px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 8px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical {
+    background: #C1C7D0;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #98A2B3;
+}
+
+QFrame#EnvSummary {
+    background-color: #FFFFFF;
+    border: 1px solid #D7E0E3;
+    border-radius: 8px;
+}
+
+QLabel#EnvPageTitle {
+    color: #1C2B2F;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+QLabel#EnvPageSubtitle {
+    color: #64757A;
+    font-size: 15px;
+}
+
+QLabel#EnvStatusPill {
+    background-color: #EAF0F2;
+    color: #334247;
+    border: 1px solid #D7E0E3;
+    border-radius: 8px;
+    padding: 6px 10px;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+QLabel#EnvStatusPill[state="online"] {
+    background-color: #EFF8F4;
+    color: #13795B;
+    border: 1px solid #BFE8D8;
+}
+
+QLabel#EnvStatusPill[state="offline"] {
+    background-color: #F5F7F8;
+    color: #64757A;
+    border: 1px solid #D7E0E3;
+}
+
+QLabel#EnvAlarmBanner {
+    background-color: #FFF6F4;
+    color: #A33329;
+    border: 1px solid #F0C7C2;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 12px;
+}
+
+QFrame#EnvDataCard {
+    background-color: #FFFFFF;
+    border: 1px solid #D7E0E3;
+    border-left: 3px solid #087F8C;
+    border-radius: 8px;
+}
+
+QFrame#EnvDataCard:hover {
+    border: 1px solid #B9C8CC;
+    border-left: 3px solid #087F8C;
+    background-color: #FFFFFF;
+}
+
+QLabel#EnvCardTitle {
+    color: #334247;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+QLabel#EnvCardValue {
+    color: #1C2B2F;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+QLabel#EnvCardUnit {
+    color: #64757A;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+QLabel#EnvCardHint {
+    color: #64757A;
+    font-size: 13px;
+}
+
+
+QWidget#CallPage {
+    background: #F4F7F8;
+}
+
+QLabel#CallTitle {
+    color: #1C2B2F;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+QLabel#CallSubtitle {
+    color: #64757A;
+    font-size: 14px;
+}
+
+QFrame#CallPanel {
+    background: #FFFFFF;
+    border: 1px solid #D7E0E3;
+    border-radius: 8px;
+}
+
+QLabel#CallStatusBadge {
+    border-radius: 999px;
+    padding: 4px 10px;
+    background: #EAF0F2;
+    color: #1C2B2F;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+QLabel#CallStatusBadge[status="connected"] {
+    background: #DDF5EA;
+    color: #13795B;
+}
+
+QLabel#CallStatusBadge[status="connecting"] {
+    background: #FFF2D6;
+    color: #8A5B00;
+}
+
+QLabel#CallStatusBadge[status="error"] {
+    background: #FCE1DE;
+    color: #A33329;
+}
+
+QLabel#CallStatusIcon {
+    color: #087F8C;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+QLabel#CallStatusText {
+    color: #1C2B2F;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+QLabel#CallUrlText {
+    color: #64757A;
+    font-size: 14px;
+}
+
+QLabel#CallTimerText {
+    color: #1C2B2F;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+QLabel#CallWaveform {
+    color: #087F8C;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+QPushButton#CallPrimaryButton {
+    background: #087F8C;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    min-height: 48px;
+    min-width: 260px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+QPushButton#CallPrimaryButton[danger="true"] {
+    background: #D99722;
+}
+
+QPushButton#CallDangerButton {
+    background: #D94B3D;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    min-height: 48px;
+    min-width: 132px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+QPushButton#CallToggleButton {
+    background: #EAF0F2;
+    color: #1C2B2F;
+    border: 1px solid #D7E0E3;
+    border-radius: 8px;
+    min-height: 44px;
+    min-width: 132px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+QPushButton#CallToggleButton[active="true"] {
+    background: #DDF5EA;
+    border-color: #21A67A;
+    color: #13795B;
+}
+
+QLabel#CallHint {
+    color: #64757A;
+    font-size: 14px;
+}
+
+QLabel#CallLastEvent {
+    color: #64757A;
+    font-size: 14px;
+}

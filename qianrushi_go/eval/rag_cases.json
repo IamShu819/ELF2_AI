@@ -1,0 +1,714 @@
+[
+  {
+    "case_id": "hit_001",
+    "query": "访客中心在哪里",
+    "expected_id": "park_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_002",
+    "query": "我想去服务台问路怎么走",
+    "expected_id": "park_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_003",
+    "query": "卫生间在服务大厅哪一侧",
+    "expected_id": "loc_restroom",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_004",
+    "query": "普通卫生间靠近什么指示牌",
+    "expected_id": "loc_restroom",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_005",
+    "query": "哪里可以坐一下休息",
+    "expected_id": "loc_rest_area",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_006",
+    "query": "休息区在什么位置",
+    "expected_id": "loc_rest_area",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_007",
+    "query": "出口怎么走",
+    "expected_id": "loc_entrance_exit",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_008",
+    "query": "我从哪个大门出去",
+    "expected_id": "loc_entrance_exit",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_009",
+    "query": "停车接驳点在哪里",
+    "expected_id": "loc_parking_shuttle",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_010",
+    "query": "班车和临停去哪问",
+    "expected_id": "loc_parking_shuttle",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_011",
+    "query": "无障碍通道在哪里",
+    "expected_id": "loc_accessibility",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_012",
+    "query": "轮椅去哪里比较方便",
+    "expected_id": "loc_accessibility",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "园区位置与设施"
+  },
+  {
+    "case_id": "hit_013",
+    "query": "访客怎么登记入园",
+    "expected_id": "visitor_registration",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_014",
+    "query": "来访需要在哪里签到",
+    "expected_id": "visitor_registration",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_015",
+    "query": "临时通行怎么办理",
+    "expected_id": "visitor_temp_pass",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_016",
+    "query": "我想办临时访客证",
+    "expected_id": "visitor_temp_pass",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_017",
+    "query": "丢东西去哪里找",
+    "expected_id": "visitor_lost_found",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_018",
+    "query": "失物招领在哪里",
+    "expected_id": "visitor_lost_found",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_019",
+    "query": "哪里可以给手机充电",
+    "expected_id": "visitor_charging_water",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_020",
+    "query": "园区有喝水的地方吗",
+    "expected_id": "visitor_charging_water",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_021",
+    "query": "咨询服务在哪里",
+    "expected_id": "visitor_consultation",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_022",
+    "query": "我想找人工问询",
+    "expected_id": "visitor_consultation",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "访客与便民服务"
+  },
+  {
+    "case_id": "hit_023",
+    "query": "灭火器怎么使用",
+    "expected_id": "safety_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_024",
+    "query": "消防器材怎么操作",
+    "expected_id": "safety_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_025",
+    "query": "发现烟雾应该怎么办",
+    "expected_id": "safety_002",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:烟雾"
+  },
+  {
+    "case_id": "hit_026",
+    "query": "闻到烟味怎么处理",
+    "expected_id": "safety_002",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:烟雾"
+  },
+  {
+    "case_id": "hit_027",
+    "query": "消防通道能不能堆东西",
+    "expected_id": "safety_fire_lane",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_028",
+    "query": "安全出口被挡住怎么办",
+    "expected_id": "safety_fire_lane",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_029",
+    "query": "用电安全要注意什么",
+    "expected_id": "safety_electricity",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:用电危险"
+  },
+  {
+    "case_id": "hit_030",
+    "query": "看到裸露电线怎么办",
+    "expected_id": "safety_electricity",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:用电危险"
+  },
+  {
+    "case_id": "hit_031",
+    "query": "设备围挡区域可以进去吗",
+    "expected_id": "safety_barrier",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_032",
+    "query": "能不能跨过围栏看设备",
+    "expected_id": "safety_barrier",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_033",
+    "query": "夜间通行要注意什么",
+    "expected_id": "safety_night_special_groups",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_034",
+    "query": "老人小孩参观怎么更安全",
+    "expected_id": "safety_night_special_groups",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "安全规范"
+  },
+  {
+    "case_id": "hit_035",
+    "query": "发生火情怎么办",
+    "expected_id": "emergency_fire",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:火情"
+  },
+  {
+    "case_id": "hit_036",
+    "query": "如果着火了我该怎么做",
+    "expected_id": "emergency_fire",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:火情"
+  },
+  {
+    "case_id": "hit_037",
+    "query": "有人受伤怎么办",
+    "expected_id": "emergency_injury",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:人员受伤"
+  },
+  {
+    "case_id": "hit_038",
+    "query": "看到有人摔倒流血怎么处理",
+    "expected_id": "emergency_injury",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:人员受伤"
+  },
+  {
+    "case_id": "hit_039",
+    "query": "在园区迷路怎么办",
+    "expected_id": "emergency_lost_person",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "应急流程"
+  },
+  {
+    "case_id": "hit_040",
+    "query": "我找不到路该去哪求助",
+    "expected_id": "emergency_lost_person",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "应急流程"
+  },
+  {
+    "case_id": "hit_041",
+    "query": "发现设备异常怎么办",
+    "expected_id": "emergency_equipment_abnormal",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:设备异常"
+  },
+  {
+    "case_id": "hit_042",
+    "query": "设备有异响还能靠近吗",
+    "expected_id": "emergency_equipment_abnormal",
+    "expected_route": "rag_hit",
+    "core_safety": true,
+    "notes": "core_safety:设备异常"
+  },
+  {
+    "case_id": "hit_043",
+    "query": "遇到暴雨大风怎么办",
+    "expected_id": "emergency_weather",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "应急流程"
+  },
+  {
+    "case_id": "hit_044",
+    "query": "恶劣天气要去哪里避险",
+    "expected_id": "emergency_weather",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "应急流程"
+  },
+  {
+    "case_id": "hit_045",
+    "query": "终端怎么开始语音问答",
+    "expected_id": "equipment_wake",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_046",
+    "query": "点击说话按钮后怎么开始问答",
+    "expected_id": "equipment_wake",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_047",
+    "query": "语音无响应怎么办",
+    "expected_id": "equipment_voice_no_response",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_048",
+    "query": "我说话终端没反应",
+    "expected_id": "equipment_voice_no_response",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_049",
+    "query": "怎么用地图导航",
+    "expected_id": "equipment_map_navigation",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_050",
+    "query": "我想让终端带我去服务台",
+    "expected_id": "equipment_map_navigation",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_051",
+    "query": "终端的监测页面怎么打开",
+    "expected_id": "equipment_env_monitor",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_052",
+    "query": "终端传感器数据在哪里查看",
+    "expected_id": "equipment_env_monitor",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_053",
+    "query": "终端声音太小怎么办",
+    "expected_id": "equipment_volume_playback",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_054",
+    "query": "没有播报声音怎么处理",
+    "expected_id": "equipment_volume_playback",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_055",
+    "query": "巡检终端离线怎么办",
+    "expected_id": "equipment_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_056",
+    "query": "终端断网掉线怎么排查",
+    "expected_id": "equipment_001",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "设备操作与故障"
+  },
+  {
+    "case_id": "hit_057",
+    "query": "这个系统能做什么",
+    "expected_id": "faq_capabilities",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "常见问题"
+  },
+  {
+    "case_id": "hit_058",
+    "query": "你都有哪些功能",
+    "expected_id": "faq_capabilities",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "常见问题"
+  },
+  {
+    "case_id": "hit_059",
+    "query": "没有资料时你会怎么回答",
+    "expected_id": "faq_no_data",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "常见问题"
+  },
+  {
+    "case_id": "hit_060",
+    "query": "查不到信息会不会乱说",
+    "expected_id": "faq_no_data",
+    "expected_route": "rag_hit",
+    "core_safety": false,
+    "notes": "常见问题"
+  },
+  {
+    "case_id": "nodata_001",
+    "query": "园区联系电话是多少",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_002",
+    "query": "服务台今天几点下班",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_003",
+    "query": "A座三楼 305 房间在哪里",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_004",
+    "query": "园区食堂菜单有哪些",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_005",
+    "query": "可以预约会议室吗",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_006",
+    "query": "某某公司办公室在哪层",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_007",
+    "query": "今天停车场还剩几个车位",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_008",
+    "query": "能给我负责人姓名吗",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_009",
+    "query": "最近的医院电话是多少",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_010",
+    "query": "园区快递柜编号是多少",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_011",
+    "query": "有没有母婴室具体门牌号",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_012",
+    "query": "能查我的访客审批状态吗",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_013",
+    "query": "今天接驳车精确时刻表",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_014",
+    "query": "园区 WiFi 密码是多少",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "nodata_015",
+    "query": "能告诉我安保值班电话吗",
+    "expected_id": "",
+    "expected_route": "rag_no_data",
+    "core_safety": false,
+    "notes": "未确认或未收录资料，应返回无资料话术"
+  },
+  {
+    "case_id": "chat_001",
+    "query": "今天天气感觉不错",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_002",
+    "query": "给我讲个轻松的小故事",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_003",
+    "query": "一加一等于几",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_004",
+    "query": "你好呀",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_005",
+    "query": "你喜欢什么颜色",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_006",
+    "query": "帮我说一句欢迎词",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_007",
+    "query": "我有点累了",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_008",
+    "query": "今天心情不错",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_009",
+    "query": "给我一个鼓励",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "chat_010",
+    "query": "随便聊两句",
+    "expected_id": "",
+    "expected_route": "chat",
+    "core_safety": false,
+    "notes": "领域外闲聊，应绕过 RAG"
+  },
+  {
+    "case_id": "map_001",
+    "query": "卫生间在哪里",
+    "expected_id": "",
+    "expected_route": "map",
+    "core_safety": false,
+    "notes": "路由优先级样本，应由非 RAG 路由处理"
+  },
+  {
+    "case_id": "map_002",
+    "query": "厕所怎么走",
+    "expected_id": "",
+    "expected_route": "map",
+    "core_safety": false,
+    "notes": "路由优先级样本，应由非 RAG 路由处理"
+  },
+  {
+    "case_id": "env_001",
+    "query": "当前温度是多少",
+    "expected_id": "",
+    "expected_route": "local_env",
+    "core_safety": false,
+    "notes": "路由优先级样本，应由非 RAG 路由处理"
+  },
+  {
+    "case_id": "env_002",
+    "query": "现在湿度怎么样",
+    "expected_id": "",
+    "expected_route": "local_env",
+    "core_safety": false,
+    "notes": "路由优先级样本，应由非 RAG 路由处理"
+  }
+]

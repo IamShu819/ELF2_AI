@@ -1,0 +1,120 @@
+[
+  {
+    "id": "safety_001",
+    "category": "安全规范",
+    "question": "灭火器怎么使用",
+    "answer": "仅在火势较小、退路畅通且会正确操作时使用灭火器。先拔保险销，握住喷管，按下压把，对准火焰根部喷射。否则立即远离并通知现场人员。",
+    "keywords": [
+      "灭火器",
+      "消防器材",
+      "消防",
+      "灭火",
+      "喷射",
+      "保险销",
+      "火焰根部"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  },
+  {
+    "id": "safety_002",
+    "category": "安全规范",
+    "question": "发现烟雾应该怎么办",
+    "answer": "发现烟雾时，先远离烟雾区域，提醒周边人员，确认安全后上报现场人员，并按现场预案处理。",
+    "keywords": [
+      "烟雾",
+      "冒烟",
+      "烟味",
+      "起烟",
+      "消防",
+      "上报",
+      "疏散"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  },
+  {
+    "id": "safety_fire_lane",
+    "category": "安全规范",
+    "question": "消防通道可以占用吗",
+    "answer": "消防通道应保持畅通，不要堆放物品或停留占用。发现堵塞时，请提醒周边人员并报告现场管理人员。",
+    "keywords": [
+      "消防通道",
+      "安全出口",
+      "疏散通道",
+      "堵塞",
+      "占用",
+      "通道畅通"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  },
+  {
+    "id": "safety_electricity",
+    "category": "安全规范",
+    "question": "用电安全要注意什么",
+    "answer": "用电时不要私拉乱接电线，不要触碰裸露线缆或异常发热设备。发现危险请远离并报告专业人员处理。",
+    "keywords": [
+      "用电安全",
+      "电线",
+      "插座",
+      "漏电",
+      "触电",
+      "电器发热",
+      "私拉乱接"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  },
+  {
+    "id": "safety_barrier",
+    "category": "安全规范",
+    "question": "设备围挡区域可以进入吗",
+    "answer": "设备围挡区域不要擅自进入，不要跨越围栏或触碰设备。确需进入时，请等待现场授权和专业人员陪同。",
+    "keywords": [
+      "设备围挡",
+      "围栏",
+      "禁止进入",
+      "设备区域",
+      "危险区域",
+      "跨越围挡"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  },
+  {
+    "id": "safety_night_special_groups",
+    "category": "安全规范",
+    "question": "夜间和特殊人群通行要注意什么",
+    "answer": "夜间通行请走照明良好的路线。老人、儿童和行动不便人员建议由同伴陪同，必要时向访客中心求助。",
+    "keywords": [
+      "夜间安全",
+      "老人",
+      "儿童",
+      "特殊人群",
+      "行动不便",
+      "陪同",
+      "夜路"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "safety_guidance"
+    ]
+  }
+]

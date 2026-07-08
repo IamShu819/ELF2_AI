@@ -1,0 +1,11 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/">
+        <file>styles/style.qss</file>
+        <file>assets/mascot.png</file>
+        <file>assets/icon_toilet.svg</file>
+        <file>assets/icon_hospital.svg</file>
+        <file>assets/icon_bus.svg</file>
+        <file>assets/road_network.json</file>
+    </qresource>
+</RCC>

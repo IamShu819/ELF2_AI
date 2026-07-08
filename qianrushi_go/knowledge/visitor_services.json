@@ -1,0 +1,104 @@
+[
+  {
+    "id": "visitor_registration",
+    "category": "访客与便民服务",
+    "question": "访客如何登记",
+    "answer": "访客请从南侧主入口进入，到主入口东侧访客中心登记，再按工作人员指引前往接待区域。",
+    "keywords": [
+      "访客登记",
+      "登记",
+      "来访",
+      "访客",
+      "报到",
+      "签到",
+      "入园"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "service_procedure",
+      "facility_location"
+    ]
+  },
+  {
+    "id": "visitor_temp_pass",
+    "category": "访客与便民服务",
+    "question": "临时通行怎么办理",
+    "answer": "临时通行请在访客中心说明来访事项，完成登记后由工作人员发放临时通行凭证。",
+    "keywords": [
+      "临时通行",
+      "临时证",
+      "通行证",
+      "临时进入",
+      "访客证",
+      "来访事项"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "service_procedure"
+    ]
+  },
+  {
+    "id": "visitor_lost_found",
+    "category": "访客与便民服务",
+    "question": "失物招领在哪里",
+    "answer": "失物招领由访客中心受理。请描述物品特征和遗失位置，工作人员会协助登记和核对。",
+    "keywords": [
+      "失物招领",
+      "丢东西",
+      "捡到东西",
+      "遗失",
+      "找东西",
+      "落东西",
+      "访客中心"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "service_procedure"
+    ]
+  },
+  {
+    "id": "visitor_charging_water",
+    "category": "访客与便民服务",
+    "question": "哪里可以充电和饮水",
+    "answer": "饮水点设置在一层休息区旁。临时充电可在访客中心咨询可用插座位置。",
+    "keywords": [
+      "充电",
+      "饮水",
+      "喝水",
+      "热水",
+      "充电口",
+      "手机没电",
+      "休息区旁"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "facility_location",
+      "service_procedure"
+    ]
+  },
+  {
+    "id": "visitor_consultation",
+    "category": "访客与便民服务",
+    "question": "咨询服务在哪里",
+    "answer": "咨询服务在访客中心办理，位置在主入口东侧，可咨询路线、登记和便民服务。",
+    "keywords": [
+      "咨询",
+      "问询",
+      "服务咨询",
+      "人工服务",
+      "帮我问问",
+      "访客中心",
+      "主入口东侧"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "facility_location",
+      "service_procedure"
+    ]
+  }
+]

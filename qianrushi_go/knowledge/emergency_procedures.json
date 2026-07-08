@@ -1,0 +1,103 @@
+[
+  {
+    "id": "emergency_fire",
+    "category": "应急流程",
+    "question": "发生火情怎么办",
+    "answer": "遇到火情时，先确保自身安全，远离危险区域，提醒周边人员，并立即通知现场人员。不要冒险处置，按现场预案疏散。",
+    "keywords": [
+      "火情",
+      "着火",
+      "火灾",
+      "起火",
+      "疏散",
+      "报警",
+      "明火"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "emergency_guidance"
+    ]
+  },
+  {
+    "id": "emergency_injury",
+    "category": "应急流程",
+    "question": "有人受伤怎么办",
+    "answer": "发现人员受伤时，先确保现场安全。除非现场仍有迫切危险，否则不要随意搬动伤者。立即通知现场人员，并按流程联系专业救援。",
+    "keywords": [
+      "人员受伤",
+      "受伤",
+      "摔倒",
+      "流血",
+      "急救",
+      "救援",
+      "伤者"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "emergency_guidance"
+    ]
+  },
+  {
+    "id": "emergency_lost_person",
+    "category": "应急流程",
+    "question": "有人迷路怎么办",
+    "answer": "迷路时请停在安全位置，查看附近标识，或前往主入口东侧访客中心寻求路线帮助。不要进入未开放区域。",
+    "keywords": [
+      "迷路",
+      "找不到路",
+      "走丢",
+      "不知道在哪",
+      "路线帮助",
+      "未开放区域",
+      "访客中心"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "emergency_guidance",
+      "facility_location"
+    ]
+  },
+  {
+    "id": "emergency_equipment_abnormal",
+    "category": "应急流程",
+    "question": "发现设备异常怎么办",
+    "answer": "发现设备异常时，请不要触碰设备，远离可能危险的位置，并把异常现象报告给现场人员或运维人员。",
+    "keywords": [
+      "设备异常",
+      "设备故障",
+      "冒烟设备",
+      "异响",
+      "报警声",
+      "不要触碰",
+      "运维"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "emergency_guidance"
+    ]
+  },
+  {
+    "id": "emergency_weather",
+    "category": "应急流程",
+    "question": "遇到恶劣天气怎么办",
+    "answer": "遇到恶劣天气时，请减少室外停留，远离临时搭建物和积水区域，按现场通知前往安全区域。",
+    "keywords": [
+      "恶劣天气",
+      "暴雨",
+      "大风",
+      "雷电",
+      "积水",
+      "临时搭建物",
+      "安全区域"
+    ],
+    "source": "public-general",
+    "enabled": true,
+    "covers": [
+      "emergency_guidance"
+    ]
+  }
+]

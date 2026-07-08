@@ -1,0 +1,123 @@
+[
+  {
+    "id": "equipment_wake",
+    "category": "设备操作与故障",
+    "question": "终端怎么开始语音问答",
+    "answer": "点击屏幕上的语音按钮，看到“正在聆听”后开始说话，系统会自动识别并处理。",
+    "keywords": [
+      "点击说话",
+      "语音按钮",
+      "开始问答",
+      "正在聆听",
+      "麦克风按钮",
+      "语音问答"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  },
+  {
+    "id": "equipment_voice_no_response",
+    "category": "设备操作与故障",
+    "question": "终端语音无响应怎么办",
+    "answer": "终端语音无响应时，请靠近麦克风重试，确认环境噪声较低，再检查服务是否在线。",
+    "keywords": [
+      "语音无响应",
+      "听不见",
+      "没反应",
+      "麦克风",
+      "噪声",
+      "说话没用"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  },
+  {
+    "id": "equipment_map_navigation",
+    "category": "设备操作与故障",
+    "question": "终端怎么使用地图导航",
+    "answer": "在终端上说出想去的位置，系统会尝试规划路线并显示方向。路线仅作辅助，请以现场标识为准。",
+    "keywords": [
+      "地图导航",
+      "路线",
+      "怎么走",
+      "导航到",
+      "带路",
+      "规划路线",
+      "位置"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  },
+  {
+    "id": "equipment_env_monitor",
+    "category": "设备操作与故障",
+    "question": "终端如何查看环境监测",
+    "answer": "打开终端的环境监测页面，可查看温度、湿度、光照、PM2.5、PM10、风速和风向等传感器数据。",
+    "keywords": [
+      "环境监测",
+      "监测页面",
+      "传感器数据",
+      "温度",
+      "湿度",
+      "光照",
+      "PM2.5",
+      "PM10",
+      "风速",
+      "风向"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  },
+  {
+    "id": "equipment_volume_playback",
+    "category": "设备操作与故障",
+    "question": "终端音量或播放异常怎么办",
+    "answer": "终端音量或播放异常时，请先调节音量并重试。仍异常时，可记录现象并联系现场运维。",
+    "keywords": [
+      "音量",
+      "播放",
+      "声音小",
+      "没声音",
+      "播报",
+      "喇叭",
+      "声音异常"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  },
+  {
+    "id": "equipment_001",
+    "category": "设备操作与故障",
+    "question": "巡检终端离线怎么办",
+    "answer": "巡检终端离线时，先检查网络连接和电源状态，再重启语音服务。仍离线时，请记录现象并联系运维。",
+    "keywords": [
+      "巡检终端",
+      "离线",
+      "网络",
+      "电源",
+      "断网",
+      "终端掉线",
+      "重启语音服务"
+    ],
+    "source": "demo",
+    "enabled": true,
+    "covers": [
+      "equipment_operation"
+    ]
+  }
+]
